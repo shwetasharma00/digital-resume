@@ -119,6 +119,62 @@ body {
     margin-bottom: 10px;
     font-size: 1em;
 }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar, .main-content {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .sidebar .profile-photo {
+                width: 120px;
+                height: 120px;
+            }
+
+            .sidebar h1 {
+                font-size: 1.8em;
+            }
+
+            .sidebar p {
+                font-size: 1em;
+            }
+
+            .main-content h2 {
+                font-size: 1.6em;
+            }
+
+            .main-content h3 {
+                font-size: 1.3em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .sidebar .profile-photo {
+                width: 100px;
+                height: 100px;
+            }
+
+            .sidebar h1 {
+                font-size: 1.5em;
+            }
+
+            .sidebar p {
+                font-size: 0.9em;
+            }
+
+            .main-content h2 {
+                font-size: 1.4em;
+            }
+
+            .main-content h3 {
+                font-size: 1.2em;
+            }
+        }
+
 
 
     
